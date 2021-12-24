@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*  반응 선택자 
+        1. 마우스를 클릭 할 때 (:active)
+        2. 마우스를 올렸을 때 (:hover)
+        */
+
+      div:hover {
+        color: yellow;
+      }
+      div:active {
+        color: red;
+      }
+      .hello:hover {
+        color: blueviolet;
+      }
+      .hello:active {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div>교실 내에서 꼭! 꼭! 마스크를 써주세요</div>
+
+    <!-- class가 hello인 요소를 
+    마우스를 올렸을 때, 폰트 색깔이 빨간색 크기가 30px
+    마우스를 클릭했을때, 폰트색깔이 파란색 크기가 50px 로 만들어주세요 -->
+    <div id="hello">안녕하세요 메리크리스마스입니다!</div>
+  </body>
+</html>
